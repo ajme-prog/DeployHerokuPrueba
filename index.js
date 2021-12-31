@@ -19,8 +19,8 @@ app.get('/GetUsuarios', function (req, res) {
 
 
 
+  var port = process.env.PORT || 5000;
 
-
-app.listen(5000, () => {
+app.listen(port, () => {
  console.log("Iniciando app de Prueba Técnica  en el puerto 5000");
 });
